@@ -6,4 +6,5 @@ wget https://github.com/TSCNEO/Picons_220x132_LightOnTransparent/archive/master.
 unzip master.zip
 mv Picons_220x132_LightOnTransparent-master/ picon/
 rm master.zip
-chmod 777 picon/download.sh
+chmod 777 picon/downloadLoT.sh
+mv picon/downloadLoT.sh /usr/script/downloadLoT.sh
